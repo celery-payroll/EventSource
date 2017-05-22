@@ -62,6 +62,7 @@ class Stream
             'Content-Type'  => 'text/event-stream',
             'Transfer-Encoding' => 'identity',
             'Cache-Control' => 'no-cache',
+            'X-Accel-Buffering' => 'no'
         );
     }
 }
